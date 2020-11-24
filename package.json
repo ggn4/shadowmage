@@ -1,0 +1,19 @@
+{
+  "name": "shadowmage",
+  "version": "1.0.0",
+  "description": "This package is use to add shadow styling to your HTML elements.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggn4/shadowmage.git"
+  },
+  "author": "Gopal Nipane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ggn4/shadowmage/issues"
+  },
+  "homepage": "https://github.com/ggn4/shadowmage#readme"
+}
