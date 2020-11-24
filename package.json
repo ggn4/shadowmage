@@ -1,7 +1,7 @@
 {
   "name": "shadowmagix",
-  "version": "1.0.0",
-  "description": "This package is use to add the shadows to your HTML elements effortlessly.",
+  "version": "3.0.1",
+  "description": "Shadow your HTML elements with shadowmagix package",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,12 +11,12 @@
     "url": "git+https://github.com/ggn4/shadowmagix.git"
   },
   "keywords": [
-    "shadows"
+    "shadowmagix"
   ],
   "author": "Gopal Nipane",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ggn4/shadowmage/issues"
+    "url": "https://github.com/ggn4/shadowmagix/issues"
   },
-  "homepage": "https://github.com/ggn4/shadowmage#readme"
+  "homepage": "https://github.com/ggn4/shadowmagix#readme"
 }

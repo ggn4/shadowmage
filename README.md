@@ -6,7 +6,7 @@ shadowmagix package is easy to use. Purpose of this package is to add the shadow
 
 `npm i shadowmagix --save`
 
-Then...
+Then, import the shadowmix package into your JavaScript file and add styles as like mentioned below,
 
 ```
 import { shadowmagix } from 'shadowmagix'
@@ -26,10 +26,10 @@ shadowmagix({
 
 shadowmagix supports 7 options,
 
-- _shadow_type_ - _hard | blur | number_ (Default to number)
-- _shadow_color_ - _string_ (Default to none)
-- _padding_ - _boolean_ (Default to false)
-- _padding_ - _boolean_ (Default to false)
-- _border_style_ - _string_ (Default to none)
-- _border_width_ - _number_ (Default to 0)
-- _border_rounded_ - _number_ (Default to 0)
+- _shadow_type_ - _"hard" | "blur" | pixelUnits_ (Default to pixelUnits)
+- _shadow_color_ - _colorName_ (Default to none)
+- _padding_ - _boolean | pixelUnits_ (Default to false)
+- _margin_ - _boolean | pixelUnits_ (Default to false)
+- _border_style_ - _colorName_ (Default to none)
+- _border_width_ - _pixelUnits_ (Default to 0)
+- _border_rounded_ - _pixelUnits_ (Default to 0)
