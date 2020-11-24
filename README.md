@@ -1,17 +1,17 @@
-# What is the purpose of this package?
+## What is the purpose of this package?
 
-shadowmage package is easy to use. Purpose of this package is to add the shadows to your HTML elements effortlessly.
+shadowmagix package is easy to use. Purpose of this package is to add the shadows to your HTML elements effortlessly.
 
-# Installation
+## Installation
 
-`npm i shadowmage --save`
+`npm i shadowmagix --save`
 
 Then...
 
 ```
-import { shadowmage } from 'shadowmage'
+import { shadowmagix } from 'shadowmagix'
 
-shadowmage({
+shadowmagix({
   shadow_type: 20,
   shadow_color: "cyan",
   padding: 5,
@@ -24,7 +24,7 @@ shadowmage({
 
 ## Options
 
-shadowmage supports 7 options,
+shadowmagix supports 7 options,
 
 - _shadow_type_ - _hard | blur | number_ (Default to number)
 - _shadow_color_ - _string_ (Default to none)

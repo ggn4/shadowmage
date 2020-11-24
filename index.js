@@ -1,11 +1,11 @@
 /* 
-    Package Name : shadowmage
+    Package Name : shadowmagix
     Creator : Gopal Nipane 
 */
 
-function shadowmage(options) {
-  // Selecting all the elements with the class name 'shadowmage'
-  let images = document.querySelectorAll(".shadowmage");
+function shadowmagix(options) {
+  // Selecting all the elements with the class name 'shadowmagix'
+  let images = document.querySelectorAll(".shadowmagix");
 
   if (options.shadow_type == "hard") {
     options.shadow_type = "0px";
@@ -13,7 +13,7 @@ function shadowmage(options) {
     options.shadow_type = "10px";
   } else options.shadow_type = `${options.shadow_type}px`;
 
-  // Implementing values to each property of shadowmage class
+  // Implementing values to each property of shadowmagix class
   images.forEach((image) => {
     image.style.boxShadow = `10px 10px ${options.shadow_type} 2px ${options.shadow_color}`;
 
@@ -35,4 +35,4 @@ function shadowmage(options) {
   });
 }
 
-module.exports.shadowmage = shadowmage;
+module.exports.shadowmagix = shadowmagix;
